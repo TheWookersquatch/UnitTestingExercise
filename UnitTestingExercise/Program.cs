@@ -6,7 +6,8 @@ namespace UnitTestingExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var add1 = new Adding();
+            add1.FirstNum = 9;
         }
     }
 }
